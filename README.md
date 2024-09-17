@@ -1,5 +1,5 @@
 # Refit Example
 
-A sample project showing how to use Refit from .NET 8 with Minimal APIs.
+A sample project that showcases "Sample interface doesn't look like a Refit interface" bug.
 
-I created this simple application for this article: [Refit in .NET: Building Robust API Clients in C#](https://www.milanjovanovic.tech/blog/refit-in-dotnet-building-robust-api-clients-in-csharp)
+Based on sample project by Milan Jovanović.
