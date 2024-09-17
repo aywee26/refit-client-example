@@ -32,9 +32,6 @@ if (app.Environment.IsDevelopment())
 app.MapGet("/posts/{id}", async (int id, IBlogApi api) =>
     await api.GetPostAsync(id));
 
-app.MapGet("/posts", async (int? userId, IBlogApi api) =>
-    await api.GetPostsAsync(userId));
-
 app.MapPost("/posts", async ([FromBody] Post post, IBlogApi api) =>
 await api.CreatePostAsync(post));
 
